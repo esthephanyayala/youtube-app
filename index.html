@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8"> 
+        <title> Youtube APP Esthephany A</title>
+        <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+
+        <div class= "container">
+            <h1 class ="logoContainer">You <span class="logo ">Tube</span></h1>
+        </div>
+            
+        <div class= "videoDiv">
+                <form class="videoForm">
+            <input type = "text" placeholder = "Search video" id="inputVideo">
+            <button type = "submit" id = "searchbtn">Search </button>
+            <button type = "button" id = "next" hidden> Next</button>
+            <button type = "button" id = "previous" hidden > Previous</button>
+            </form>
+        </div>
+
+        <section class ="results">
+                <ul id= "videos"> </ul>
+            </section>
+
+            
+            <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+
+        <script src = "./js/index.js" type= "text/javascript"> </script>
+    </body>
+</html>
